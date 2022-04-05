@@ -1,0 +1,52 @@
+
+
+body {
+    margin: 0;
+    background: rgb(33, 145, 173);
+    font-family: 'Times New Roman', Times, serif;
+    padding-left: 20px;
+}
+
+.header {
+  background: rgb(33, 145, 173);
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+.logo {
+  color: white;
+  font-size: 32px;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.profile-image {
+  border: none;
+  font-size: 30px;
+  border-radius: 999px;
+  background: white;
+  color: rgb(33, 145, 173);
+  padding: 8px 8px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+    list-style-type: none;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
